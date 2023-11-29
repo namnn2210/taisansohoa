@@ -1,8 +1,8 @@
 # main.py
 from fastapi import FastAPI
-from user_router import router as user_router
-from ncc_router import router as ncc_router
-from pb_router import router as pb_router
+from router.user_router import router as user_router
+from router.ncc_router import router as ncc_router
+from router.pb_router import router as pb_router
 
 app = FastAPI()
 

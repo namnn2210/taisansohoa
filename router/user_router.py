@@ -1,7 +1,7 @@
 # user_router.py
 from fastapi import APIRouter, HTTPException
 from models import User
-import user_auth
+from process import user_auth
 
 router = APIRouter()
 
